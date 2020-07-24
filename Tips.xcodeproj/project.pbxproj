@@ -15,6 +15,7 @@
 		461E8AAB23EC7AFA00C1F2B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 461E8AAA23EC7AFA00C1F2B7 /* main.m */; };
 		461E8AB923EC97E200C1F2B7 /* LSITipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461E8AB823EC97E200C1F2B7 /* LSITipViewController.m */; };
 		AB4FE77124CA746200EC752F /* LSITip.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE77024CA746200EC752F /* LSITip.m */; };
+		AB4FE77524CA7B3200EC752F /* LSITipController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE77424CA7B3200EC752F /* LSITipController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		461E8AB823EC97E200C1F2B7 /* LSITipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITipViewController.m; sourceTree = "<group>"; };
 		AB4FE76F24CA746200EC752F /* LSITip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSITip.h; sourceTree = "<group>"; };
 		AB4FE77024CA746200EC752F /* LSITip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITip.m; sourceTree = "<group>"; };
+		AB4FE77324CA7B3200EC752F /* LSITipController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSITipController.h; sourceTree = "<group>"; };
+		AB4FE77424CA7B3200EC752F /* LSITipController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITipController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,7 @@
 		461E8A9723EC7AF900C1F2B7 /* Tips */ = {
 			isa = PBXGroup;
 			children = (
+				AB4FE77224CA7B1900EC752F /* Model Controller */,
 				AB4FE76E24CA743300EC752F /* Model */,
 				467F766323F2253000A284A5 /* View Controller */,
 				467F766723F2256000A284A5 /* Storyboards */,
@@ -111,6 +115,15 @@
 				AB4FE77024CA746200EC752F /* LSITip.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		AB4FE77224CA7B1900EC752F /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB4FE77324CA7B3200EC752F /* LSITipController.h */,
+				AB4FE77424CA7B3200EC752F /* LSITipController.m */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4FE77524CA7B3200EC752F /* LSITipController.m in Sources */,
 				461E8A9A23EC7AF900C1F2B7 /* AppDelegate.m in Sources */,
 				461E8AB923EC97E200C1F2B7 /* LSITipViewController.m in Sources */,
 				AB4FE77124CA746200EC752F /* LSITip.m in Sources */,
