@@ -14,6 +14,7 @@
 		461E8AA823EC7AFA00C1F2B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461E8AA623EC7AFA00C1F2B7 /* LaunchScreen.storyboard */; };
 		461E8AAB23EC7AFA00C1F2B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 461E8AAA23EC7AFA00C1F2B7 /* main.m */; };
 		461E8AB923EC97E200C1F2B7 /* LSITipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461E8AB823EC97E200C1F2B7 /* LSITipViewController.m */; };
+		AB4FE77124CA746200EC752F /* LSITip.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE77024CA746200EC752F /* LSITip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		461E8AAA23EC7AFA00C1F2B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		461E8AB723EC97E200C1F2B7 /* LSITipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSITipViewController.h; sourceTree = "<group>"; };
 		461E8AB823EC97E200C1F2B7 /* LSITipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITipViewController.m; sourceTree = "<group>"; };
+		AB4FE76F24CA746200EC752F /* LSITip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSITip.h; sourceTree = "<group>"; };
+		AB4FE77024CA746200EC752F /* LSITip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITip.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		461E8A9723EC7AF900C1F2B7 /* Tips */ = {
 			isa = PBXGroup;
 			children = (
+				AB4FE76E24CA743300EC752F /* Model */,
 				467F766323F2253000A284A5 /* View Controller */,
 				467F766723F2256000A284A5 /* Storyboards */,
 				467F766623F2255000A284A5 /* Resources */,
@@ -100,6 +104,15 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		AB4FE76E24CA743300EC752F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB4FE76F24CA746200EC752F /* LSITip.h */,
+				AB4FE77024CA746200EC752F /* LSITip.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,6 +139,7 @@
 		461E8A8D23EC7AF900C1F2B7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LSI;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Lambda School";
 				TargetAttributes = {
@@ -172,6 +186,7 @@
 			files = (
 				461E8A9A23EC7AF900C1F2B7 /* AppDelegate.m in Sources */,
 				461E8AB923EC97E200C1F2B7 /* LSITipViewController.m in Sources */,
+				AB4FE77124CA746200EC752F /* LSITip.m in Sources */,
 				461E8AAB23EC7AFA00C1F2B7 /* main.m in Sources */,
 				461E8A9D23EC7AF900C1F2B7 /* SceneDelegate.m in Sources */,
 			);
